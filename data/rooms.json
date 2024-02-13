@@ -1,0 +1,23 @@
+{
+    "room-1": {
+        "nom": "Salon #1",
+        "creator": null,
+        "params": {
+            "max_people": 10
+        }
+    },
+    "room-2": {
+        "nom": "Salon #2",
+        "creator": null,
+        "params": {
+            "max_people": 5
+        }
+    },
+    "room-3": {
+        "nom": "Salon #3",
+        "creator": null,
+        "params": {
+            "max_people": 2
+        }
+    }
+}
