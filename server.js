@@ -153,7 +153,7 @@ io.on("connection", socket => {
             socket.room = room; 
             log("Joined the chat \"" + room + "\""); 
 
-            io.to(room).emit('new message system', socket.username + " has joined the chat"); /
+            io.to(room).emit('new message system', socket.username + " has joined the chat"); 
             logAdmin("(" + room + ") : " + socket.username + " joined the chat"); 
 
             socket.emit("update users rooms"); 
