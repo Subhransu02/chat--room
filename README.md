@@ -1,4 +1,4 @@
-This project based on [Socket.io](https://socket.io/).
+This project based on React.js, Node.js, [Socket.io](https://socket.io/).
 
 ## How to start
 
