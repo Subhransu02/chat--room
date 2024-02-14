@@ -1,5 +1,4 @@
 import React from "react";
-
 const Message = (props) => {
   if (props.sender) {
     return (
@@ -14,7 +13,7 @@ const Message = (props) => {
         <div class="col-md-1 col-2">
           <img
             className="img-fluid message-logo"
-            src={"http://localhost:8000/avatars/" + props.username}
+            src={ process.env.BASE_URL + props.username}
             alt="Logo"
           />
         </div>

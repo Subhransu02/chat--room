@@ -5,6 +5,9 @@ const server = http.createServer(app);
 const socket = require("socket.io");
 const io = socket(server);
 const fs = require("fs");
+const  dotenv = require("dotenv");
+dotenv.config();
+
 
 //Number of connected client
 var nbPersonnes = 0;
@@ -240,4 +243,4 @@ io.on("connection", socket => {
 })
 
 
-server.listen(8000, () => console.log("server is running on port 8000"));
+server.listen(process.env.PORT, () => console.log("server is running!!"));
